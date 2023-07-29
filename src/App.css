@@ -1,0 +1,42 @@
+/** @format */
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+html {
+	background-color: dodgerblue;
+}
+.base {
+	background-color: blue;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+input {
+	font-size: 26px;
+}
+.btnAdd {
+	padding: 2px;
+	margin: 0 2px;
+	cursor: pointer;
+}
+.btnAdd:hover {
+	background-color: rgba(18, 103, 251, 0.933);
+}
+
+li {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+	width: 1000px;
+	margin-left: 90px;
+	background-color: azure;
+	margin: 5px auto;
+}
